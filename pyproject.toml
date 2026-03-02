@@ -1,0 +1,18 @@
+[project]
+name = "test-agent"
+version = "0.1.0"
+description = "AI 测试执行 Agent - 基于 Claude API 和 Playwright"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40.0",
+    "playwright>=1.40.0",
+    "rich>=13.0.0",
+    "pyyaml>=6.0",
+]
+
+[project.scripts]
+test-agent = "main:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

@@ -1,0 +1,8 @@
+# 核心依赖
+playwright>=1.40.0
+rich>=13.0.0
+pyyaml>=6.0
+
+# AI 提供商 SDK（至少安装一个）
+anthropic>=0.40.0        # Anthropic Claude
+zhipuai>=2.0.0           # 智谱 GLM

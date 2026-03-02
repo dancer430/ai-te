@@ -1,0 +1,36 @@
+# AI 配置
+ai:
+  # AI 提供商：anthropic（Claude）或 glm（智谱）
+  provider: "glm"
+
+  # API 密钥
+  # GLM: 请填入你的智谱 API Key，或设置环境变量 ZHIPUAI_API_KEY
+  api_key: "391270b1f617411db9357be8b3404383.KOFaPmB7c9lp89od"
+
+  # 模型名称（可选，留空使用默认模型）
+  # GLM 默认: glm-4-plus
+  model: "glm-4.7"
+
+# 被测系统配置
+target:
+  url: "https://devops-daily-vkso15--idp.alaudatech.net"
+  bearer_token: "eyJhbGciOiJSUzI1NiIsImtpZCI6IjQ0NTJjNDA0MjhjNzA3ZTVkNGJmNTQxZmU1NzBmMjhlZjEyMjYyNzUifQ.eyJpc3MiOiJodHRwczovL2Rldm9wcy1kYWlseS12a3NvMTUtLWlkcC5hbGF1ZGF0ZWNoLm5ldC9kZXgiLCJzdWIiOiJDaVF3T0dFNE5qZzBZaTFrWWpnNExUUmlOek10T1RCaE9TMHpZMlF4TmpZeFpqVTBOallTQld4dlkyRnMiLCJhdWQiOiJhbGF1ZGEtYXV0aCIsImV4cCI6MTc3MjAwNzA5OSwiaWF0IjoxNzcxOTIwNjk5LCJub25jZSI6ImFsYXVkYS1jb25zb2xlIiwiYXRfaGFzaCI6Ii1VOFRJLThucGZmQUpFWWdISHFULUEiLCJjX2hhc2giOiJ5Q1NlT3FQd2x2Y1NySWFTalVXcXZ3IiwiZW1haWwiOiJhZG1pbkBjcGFhcy5pbyIsImVtYWlsX3ZlcmlmaWVkIjp0cnVlLCJyb2xlcyI6WyJwbGF0Zm9ybS1hZG1pbi1zeXN0ZW0iXSwibmFtZSI6ImFkbWluIiwicHJlZmVycmVkX3VzZXJuYW1lIjoiYWRtaW5AY3BhYXMuaW8iLCJleHQiOnsiaXNfYWRtaW4iOnRydWUsImNvbm5faWQiOiJsb2NhbCJ9fQ.DVcY2LqHR9QxjkN3CUMp0ISHMXgCsBbfPk7d8pi2UislbTUz-xYe5XJV388eQk03o0NtNbkydWNZ_eSIat0ilKT_ajx5tEHgrkewR7DQvUFASemkcxoKoVUQ7XPuamMMd-QRSwPamp6ikykGQGLjeYM1ZTMVAQvt0VLY8okLS1nAzIxUtbFRtk3yMLDb2_gXTdPki5Ptw9dAmXr-f7P-orqOekLCGGY4-sJ3er3HdTNyFuJbpPZG5KEqnde56lCyZlAX0P7HMvWoWOxt6I4WTxGAZqQ7ihA2KkGTD2JuowCplbL0Xo-xZdeJer3UvRZkV4lMw7hKSRJcwVHE0lnbMQ"
+
+# 代理配置（可选）
+proxy: ""
+
+# 浏览器配置
+browser:
+  headless: false
+  viewport:
+    width: 1280
+    height: 720
+  locale: "zh-CN"
+
+# 运行时变量
+login:
+  username: "admin@cpaas.io"
+  password: "07Apples@"
+
+search:
+  keyword: "ruiqiu"
